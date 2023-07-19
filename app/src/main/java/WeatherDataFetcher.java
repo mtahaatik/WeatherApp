@@ -5,7 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class WeatherDataFetcher {
-    private static final String API_KEY = "f093d8212fc570b5b8d5524271dd77cc";
+    private static final String API_KEY = "api key here";
 
     public static String getWeatherData(String location) throws IOException {
         String apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + location + "&appid=" + API_KEY;
